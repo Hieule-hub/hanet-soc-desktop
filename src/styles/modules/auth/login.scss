@@ -1,0 +1,54 @@
+.hanet-login {
+    height: 100vh;
+    width: 100%;
+    // background-color: @component-background;
+    background-image: url('/images/login-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 85% 50%;
+    background-size: auto;
+    background-color: #0d0c0c;
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .login-content {
+        margin-left: 85px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+
+        .login-title {
+            text-align: center;
+            h1 {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                margin-bottom: 8px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .login-form {
+            width: 516px;
+            padding: 48px;
+            padding-bottom: 32px;
+            border-radius: 20px;
+            background: #191919;
+        }
+
+        .error-message-form {
+            padding-bottom: 16px;
+            color: #dc4446;
+        }
+    }
+}

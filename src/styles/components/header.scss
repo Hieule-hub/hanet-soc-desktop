@@ -1,0 +1,46 @@
+.hanet-header-wrapper {
+    height: 50px !important;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0 20px 0 0 !important;
+    z-index: 1;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+        0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+.hanet-header {
+    // background: @component-background;
+    height: 50px !important;
+    line-height: unset !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    // background: #fff !important;
+    border-bottom: 1px solid #d8dbe0;
+    border: 0;
+    -webkit-clip-path: inset(0 0 -1000px 0);
+    clip-path: inset(0 0 -1000px 0);
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    transition: all 0.2s;
+
+    .header-content {
+        flex: auto;
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+}

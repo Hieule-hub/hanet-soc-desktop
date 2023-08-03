@@ -1,0 +1,15 @@
+.ant-card {
+    // background: #fff;
+    // background: @component-background !important;
+    // color: @white !important;
+}
+
+.hanet-ant-card {
+    .ant-card-head {
+        padding: 16px ;
+    }
+    .title {
+        font-size: 12px;
+        font-weight: normal;
+    }
+}

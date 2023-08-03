@@ -1,0 +1,53 @@
+.hanet-form-screen-layout-radio-ant {
+    .content {
+        color: white;
+    }
+}
+
+.hanet-radio-group-layout {
+    // .ant-radio-wrapper {
+    //     color: white;
+    // }
+
+    .ant-radio {
+        padding: 2px 2px 4px;
+        align-self: self-start;
+    }
+
+    .value {
+        background-position-y: 23px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 90px;
+        width: 107px;
+        display: flex;
+    }
+
+    .value-1:not(.ant-radio-wrapper-checked) {
+        background-image: url(/images/scheme/option-layout-1.svg);
+    }
+
+    .value-4:not(.ant-radio-wrapper-checked) {
+        background-image: url(/images/scheme/option-layout-4.svg);
+    }
+    .value-9:not(.ant-radio-wrapper-checked) {
+        background-image: url(/images/scheme/option-layout-9.svg);
+    }
+    .value-16:not(.ant-radio-wrapper-checked) {
+        background-image: url(/images/scheme/option-layout-16.svg);
+    }
+
+    .value-1 {
+        background-image: url(/images/scheme/option-layout-1-active.svg);
+    }
+
+    .value-4 {
+        background-image: url(/images/scheme/option-layout-4-active.svg);
+    }
+    .value-9 {
+        background-image: url(/images/scheme/option-layout-9-active.svg);
+    }
+    .value-16 {
+        background-image: url(/images/scheme/option-layout-16-active.svg);
+    }
+}

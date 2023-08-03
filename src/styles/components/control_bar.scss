@@ -1,0 +1,34 @@
+.hanet-control-bar {
+    margin: 20px 0 38px 0;
+    .timeline-bar {
+        display: grid;
+        grid-template-columns: repeat(61, 1fr);
+        .timeline-item {
+            position: relative;
+            .line {
+                margin: 0 auto auto auto;
+                border-left: 1px solid;
+                border-color: #595959;
+                height: 12px;
+                width: 0;
+                &.line-plus {
+                    height: 22px;
+                    border-color: #a8a6a6;
+                }
+            }
+            .line-selected {
+                background-image: url('/images/video-selected.svg');
+                // position: absolute;
+                height: 65px;
+                top: -8px;
+                width: 10px;
+                margin: -8px auto auto auto;
+            }
+            .label-item {
+                position: absolute;
+                top: 34px;
+                left: -4px;
+            }
+        }
+    }
+}

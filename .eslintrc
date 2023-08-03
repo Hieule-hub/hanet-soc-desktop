@@ -1,0 +1,137 @@
+{
+    "extends": [
+        "next",
+        "airbnb",
+        "next/core-web-vitals",
+        "plugin:react/recommended",
+        // "next/babel",
+        "next/core-web-vitals"
+    ],
+    "ignorePatterns": ["node_modules", "dist"],
+    "plugins": [],
+    "rules": {
+        "comma-dangle": "off",
+        // "comma-dangle": [
+        // 	"error",
+        // 	"never"
+        // ],
+        "no-param-reassign": "off",
+        "import/no-extraneous-dependencies": "off",
+        "react/function-component-definition": [
+            2,
+            {
+                "namedComponents": "arrow-function"
+            }
+        ],
+        "react/jsx-no-useless-fragment": [
+            2,
+            {
+                "allowExpressions": true
+            }
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/require-default-props": 0,
+        "react/prop-types": "error",
+        "react/no-namespace": "off",
+        "react/prefer-exact-props": "off",
+        "react/no-arrow-function-lifecycle": "off",
+        "react/no-invalid-html-attribute": "off",
+        "react/no-unused-class-component-methods": "off",
+        "react/default-props-match-prop-types": [
+            "error",
+            {
+                "allowRequiredDefaults": true
+            }
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "import/prefer-default-export": "off",
+        "import/no-named-as-default-member": "off",
+        "import/no-named-as-default": "off",
+        "jsx-a11y/href-no-hash": "off",
+        "no-underscore-dangle": "off",
+        "react/forbid-prop-types": "off",
+        "max-len": "off",
+        "global-require": "off",
+        "quote-props": "off",
+        "arrow-parens": "off",
+        "default-param-last": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js", ".jsx", "ts", "tsx"]
+            }
+        ],
+        // "indent": [
+        // 	2,
+        // 	"tab",
+        // 	{
+        // 		"SwitchCase": 1
+        // 	}
+        // ],
+        "indent": "off",
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
+        // "indent": ["error", 2],
+        // "react/jsx-indent": [2, "tab"],
+        // "react/jsx-indent-props": [2, "tab"],
+        "no-tabs": 0,
+        "implicit-arrow-linebreak": "off",
+        "object-curly-newline": 0,
+        "no-lonely-if": 0,
+        "prefer-template": 0,
+        "consistent-return": 0,
+        "arrow-body-style": 0,
+        "react/no-string-refs": 0,
+        "prefer-destructuring": 1,
+        "no-bitwise": 0,
+        "react/no-array-index-key": 0,
+        "no-plusplus": 0,
+        "jsx-a11y/anchor-is-valid": 0,
+        "react/no-danger": 0,
+        "react/state-in-constructor": 0,
+        "function-paren-newline": 0,
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "react/destructuring-assignment": 0,
+        "operator-linebreak": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-wrap-multilines": 0,
+        "react/display-name": 0,
+        "linebreak-style": 0,
+        "spaced-comment": "off",
+        "no-unused-vars": "off"
+        // 	"error",
+        // 	{
+        // 		"ignoreRestSiblings": true,
+        // 		"destructuredArrayIgnorePattern": "[A-Z]",
+        // 		"caughtErrors": "none"
+        // 	}
+        // ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".android.js", ".ios.js", ".jsx"],
+                "paths": ["./"]
+            }
+        }
+    },
+    "globals": {
+        "chrome": true,
+        "fetch": true,
+        "FormData": true,
+        "document": true,
+        "window": true
+    }
+}

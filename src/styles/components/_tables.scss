@@ -1,0 +1,54 @@
+.hanet-table {
+    .ant-table-thead > tr > th {
+        color: #ffffff;
+        // background: @component-background;
+        border-bottom: 1px solid #191919;
+    }
+    .ant-table-tbody > tr > td {
+        color: #ffffff;
+        // background: @component-background;
+        border-bottom: 1px solid #191919;
+    }
+
+    .hanet-table-action {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+    .ant-table-tbody > tr.ant-table-row:hover > td,
+    .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+        // background: @hover-background-color;
+        .hanet-table-action {
+            opacity: 1;
+        }
+    }
+
+    .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+        // background: @component-background;
+    }
+
+    .ant-table-container table > thead > tr:first-child {
+        th:first-child {
+            border-top-left-radius: unset;
+        }
+        th:last-child {
+            border-top-right-radius: unset;
+        }
+    }
+    .ant-table-cell-scrollbar:not([rowspan]) {
+        box-shadow: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .ant-table-thead th.ant-table-column-has-sorters:hover {
+        // background: @component-background;
+    }
+
+    .ant-table-empty {
+        .ant-table-cell {
+            border-bottom: none;
+        }
+    }
+}

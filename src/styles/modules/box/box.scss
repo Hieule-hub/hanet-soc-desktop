@@ -1,0 +1,30 @@
+.box-item-container {
+    position: relative;
+    .status {
+        position: absolute;
+        top: 10px;
+        left: 12px;
+    }
+
+    .label {
+        margin-top: 6px;
+    }
+
+    &.offline {
+        opacity: 50%;
+    }
+
+    .box-item-content {
+        width: 100%;
+        aspect-ratio: 135 / 76;
+        // height: ,
+        border-radius: 6px;
+        cursor: pointer;
+
+        // width: '100%',
+        // height: undefined,
+        // aspectRatio: 135 / 76,
+        // borderRadius: '6px',
+        // cursor: 'pointer'
+    }
+}

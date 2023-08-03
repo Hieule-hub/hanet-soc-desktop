@@ -1,0 +1,78 @@
+.hanet-control-column-display-ant {
+    background-color: #545454;
+    color: #fff;
+    line-height: 28px;
+    padding: 0 10px;
+    border-radius: 0;
+    div {
+        text-align: center;
+    }
+}
+
+.hanet-checked-item {
+    .place-name {
+        color: #a7a7a7;
+    }
+    .body {
+        background-color: #191919;
+        padding: 2px 5px 2px 12px;
+        border-radius: 6px;
+        // min-width: 100%;
+        button {
+            border: 0;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.hanet-location-list {
+    padding-left: 0;
+    .item-selected {
+        background: #191919;
+    }
+}
+.hanet-location-item {
+    button {
+        border: 0;
+        &:active {
+            background: #191919;
+        }
+    }
+    .label {
+        overflow: hidden;
+        white-space: nowrap; /* Don't forget this one */
+        text-overflow: ellipsis;
+        text-align: initial;
+    }
+}
+
+.hanet-monitor-item {
+    padding: 4px 10px;
+    border-radius: 9px;
+    background: #545454;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+//custom style notification
+
+.hanet-ant-notification {
+    background: #1e1e1e;
+    color: #ffffff;
+    .ant-notification-notice-message {
+        color: #ffffff;
+    }
+    .ant-notification-close-x {
+        color: #ffffff;
+    }
+}
+
+//video
+
+.hanet-controlbar-video {
+    display: none !important;
+}
+
+.hanet-big-button {
+    display: none !important;
+}
